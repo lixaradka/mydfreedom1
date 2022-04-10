@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 28px;
+}
+
+.clock {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border: 3px solid rgb(143, 119, 71);
+}
+
+.time {
+    width: 120px;
+    height: 120px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.time p {
+    margin: 0 auto;
+}
+
+.hour p {
+    color: brown;
+}
+
+.min p {
+    color: hotpink;
+}
+
+.sec p {
+    color: khaki;
+}
